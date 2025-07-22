@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, redirect
-from storage import URLStore
-from utils import generate_short_code, is_valid_url
-from URLStore import URLStore
+from app.storage import URLStore
+from app.utils import generate_short_code, is_valid_url
+from app.URLStore import URLStore 
 
 
 app = Flask(__name__)
